@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", sans-serif;
+  
+  --color-brand-900: #064e3b;
+  --color-brand-800: #065f46;
+  --color-brand-700: #047857;
+  --color-brand-600: #059669;
+  --color-brand-500: #10b981;
+  --color-brand-400: #34d399;
+  --color-brand-200: #a7f3d0;
+  --color-brand-100: #d1fae5;
+  --color-brand-50: #f0fdf4;
+  
+  --color-cream: #fdfbf7;
+}
+
+@layer base {
+  body {
+    @apply bg-cream text-slate-900 antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display tracking-tight;
+  }
+}
+
+/* Subtle noise texture overlay for section differentiation */
+.textured-bg {
+  position: relative;
+}
+.textured-bg::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  opacity: 0.03;
+  pointer-events: none;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+  background-size: 256px 256px;
+}
