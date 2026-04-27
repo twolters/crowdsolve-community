@@ -15,6 +15,9 @@ import {
 import { motion } from 'motion/react';
 import ApplicationForm from './ApplicationForm';
 
+const CIRCLE_INVITE_URL =
+  'https://www.crowdsolve.eco/join?invitation_token=5793eeadc83312725ac8e44da24cfdc20d98ac09-4770f5e6-2367-4eb7-8945-4bb822d5bfff';
+
 const Logo = ({ className = "h-8" }: { className?: string }) => (
   <img src="/images/crowdsolve-logo.png" alt="CrowdSolve" className={className} />
 );
@@ -32,10 +35,10 @@ const Navbar = () => (
         <a href="#who-its-for" className="hover:text-brand-900 transition-colors">Who it's for</a>
       </div>
       <a
-        href="#apply"
+        href={CIRCLE_INVITE_URL}
         className="bg-brand-900 text-white px-5 py-2.5 rounded-full text-sm font-semibold hover:bg-brand-800 transition-all shadow-lg shadow-brand-900/10"
       >
-        Apply for Beta
+        Get Started!
       </a>
     </div>
   </nav>
@@ -66,15 +69,17 @@ const Hero = () => (
         </p>
         <div className="flex flex-col sm:flex-row items-start sm:items-center gap-6">
           <a
-            href="#apply"
+            href={CIRCLE_INVITE_URL}
             className="group bg-brand-900 text-white px-8 py-4 rounded-full text-lg font-bold flex items-center gap-2 hover:bg-brand-800 transition-all shadow-xl shadow-brand-900/20"
           >
-            Apply for the Beta
+            Get Started!
             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
           </a>
           <div className="flex flex-col">
-            <span className="text-sm font-semibold text-brand-900">Free to apply · Starts April 20</span>
-            <span className="text-xs text-slate-500">Rolling review · Limited spots</span>
+            <span className="text-sm font-semibold text-brand-900">Free · 10-week beta cohort</span>
+            <a href="#apply" className="text-xs text-slate-500 hover:text-brand-700 underline underline-offset-4">
+              Not ready yet? Send us some info →
+            </a>
           </div>
         </div>
       </motion.div>
@@ -417,13 +422,31 @@ const WhoItsFor = () => (
   </section>
 );
 
+const ReadyCTA = () => (
+  <section className="py-20 bg-brand-900 text-white">
+    <div className="max-w-4xl mx-auto px-6 text-center">
+      <h2 className="text-3xl md:text-4xl font-bold mb-4">Ready when you are.</h2>
+      <p className="text-brand-200 text-lg font-medium mb-8 max-w-2xl mx-auto">
+        Sound like a fit? Join the cohort and start building alongside founders who get it.
+      </p>
+      <a
+        href={CIRCLE_INVITE_URL}
+        className="group inline-flex items-center gap-2 bg-white text-brand-900 px-8 py-4 rounded-full text-lg font-bold hover:bg-brand-50 transition-all shadow-xl shadow-black/20"
+      >
+        Get Started!
+        <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+      </a>
+    </div>
+  </section>
+);
+
 const ApplySection = () => (
   <section id="apply" className="py-28 bg-cream">
     <div className="max-w-5xl mx-auto px-6">
       <div className="text-center max-w-3xl mx-auto mb-12">
-        <h2 className="text-4xl font-bold text-brand-900 mb-4">Apply for the Beta.</h2>
+        <h2 className="text-4xl font-bold text-brand-900 mb-4">Not ready yet?</h2>
         <p className="text-slate-600 text-lg font-medium">
-          We're not looking for the perfect idea. We're looking for founders who show up, help each other, and take action.
+          Send us some info and we'll be happy to chat about the next opportunity.
         </p>
       </div>
       <div className="max-w-xl mx-auto bg-white rounded-2xl p-8 md:p-10 border border-brand-900/5 shadow-sm">
@@ -462,6 +485,7 @@ export default function App() {
         <HowItWorks />
         <Team />
         <WhoItsFor />
+        <ReadyCTA />
         <ApplySection />
       </main>
       <Footer />

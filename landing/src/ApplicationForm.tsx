@@ -65,7 +65,7 @@ export default function ApplicationForm() {
     return (
       <div className="text-center py-12">
         <h3 className="text-3xl font-bold text-brand-900 mb-4">Thanks, {firstName}!</h3>
-        <p className="text-slate-600 text-lg">We review every application and get back to you within a week.</p>
+        <p className="text-slate-600 text-lg">We'll be in touch soon about the next opportunity.</p>
       </div>
     );
   }
@@ -73,9 +73,9 @@ export default function ApplicationForm() {
   if (state === 'duplicate') {
     return (
       <div className="text-center py-12">
-        <h3 className="text-3xl font-bold text-brand-900 mb-4">Already applied!</h3>
+        <h3 className="text-3xl font-bold text-brand-900 mb-4">You're already on our list!</h3>
         <p className="text-slate-600 text-lg">
-          Looks like you've already submitted an application. Check your email or reach out to{' '}
+          Looks like you've sent us info before. Check your email or reach out to{' '}
           <a href="mailto:patrick@crowdsolve.eco" className="text-brand-600 underline">patrick@crowdsolve.eco</a>.
         </p>
       </div>
@@ -141,7 +141,7 @@ export default function ApplicationForm() {
         disabled={state === 'submitting'}
         className="w-full bg-brand-900 text-white py-4 rounded-full text-lg font-bold hover:bg-brand-800 transition-all disabled:bg-slate-300 disabled:cursor-not-allowed shadow-lg shadow-brand-900/10"
       >
-        {state === 'submitting' ? 'Submitting...' : state === 'error' ? 'Something went wrong — try again' : 'Apply Now →'}
+        {state === 'submitting' ? 'Sending...' : state === 'error' ? 'Something went wrong — try again' : 'Send Info →'}
       </button>
 
       <p className="text-center text-sm text-slate-500 pt-1">
