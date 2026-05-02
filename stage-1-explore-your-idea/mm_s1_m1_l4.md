@@ -181,7 +181,7 @@ A paragraph describing:
 
 ### Your Task
 
-Ensure the founder is describing **real-world behavior**, not abstract ideas.
+Ensure the founder is describing **real-world behavior**, not abstract ideas.  If the founder has not filled in homework from lessons 2 and 3 then attempt to fill in for them.
 
 ---
 
@@ -224,7 +224,7 @@ Break into:
 
 ### Your Task
 
-Push the founder to move from **surface problem → underlying system cause**.
+Push the founder to move from **surface problem → underlying system cause**.  If the founder has not filled this part in, then provide a framework for them to think about the root cause for their problem statement. 
 
 ---
 
@@ -275,7 +275,7 @@ Synthesize everything into a **clear, concise, and compelling problem statement*
 
 ## Final Problem Statement
 
-A **tight, well-structured paragraph** that includes:
+A **tight, well-structured short paragraph** that includes:
 
 • the customer
 • the situation
