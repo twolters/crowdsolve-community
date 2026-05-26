@@ -1,4 +1,4 @@
-# A problem, simply stated
+# Lesson 1 - A problem, simply stated
 
 This module will help you articulate—crisply and evidence-based—the real problem you intend to solve, for whom, and why it matters now. This becomes the foundation for every downstream module (customer interviews, solution design, MVP, GTM).
 
