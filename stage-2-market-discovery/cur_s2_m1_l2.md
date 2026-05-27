@@ -68,9 +68,10 @@ A clear description of:
 • end user  
 • economic buyer
 
-## **Get Marvin Feedback**
+## **Ask Marvin**
 
-Create a new comment in your startup card
+Create a new comment in your startup post in your cohort.
 
-* On line 1, “@Marvin mm\_s2\_m1\_l2”  
-* append your homework below that in the same comment
+* On the first line, add the text, “@marvin mm\_s2\_m1\_l2”  
+* append your homework below that in the same comment  
+* Take the feedback from Marvin and if you have any mods you would like to keep then modify your segments and send back to Marvin as a new comment with “@marvin mm\_s2\_m1\_l2 keep” and then paste in your changes below.
