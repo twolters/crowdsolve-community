@@ -61,7 +61,7 @@ A list of:
 • Top 3 customer problems  
 • Current solutions for each
 
-## **Get Marvin Feedback**
+## **Ask Marvin**
 
 Create a new comment on your Startup Post in your cohort space
 
