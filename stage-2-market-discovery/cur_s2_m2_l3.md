@@ -83,3 +83,8 @@ Take notes on:
 ## **Homework**
 
 Notes from **5–10 interviews** in the google doc you created in the previous lesson, each interview in it’s own tab. If you can use an AI note taker, do so. Be sure to ask permission before turning it on for the meeting.
+
+### **Ask Marvin**
+
+* There is no Marvin feedback for this lesson.  
+* In the next lesson we will load up Marvin with all of your notes to synthesize the findings.
