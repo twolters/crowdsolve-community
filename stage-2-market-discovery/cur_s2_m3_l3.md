@@ -136,9 +136,9 @@ North American Shopify stores in that segment actively looking for operational t
 
 Submit:
 
-• TAM definition and market estimate  
-• SAM definition and market estimate  
-• SOM definiton and market estimate
+• TAM definition, assumptions, and market estimate  
+• SAM definition, assumptions, and market estimate  
+• SOM definiton, assumptions, and market estimate
 
 Include:
 
