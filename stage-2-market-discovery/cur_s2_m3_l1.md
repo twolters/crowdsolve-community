@@ -1,4 +1,4 @@
-## Module Overview and Lesson 1 \- Identify competitive solutions
+## Module Overview and Lesson 1 \- Analyze the solution space
 
 ## **Module Overview**
 
@@ -10,7 +10,10 @@ You’ve now:
 
 Now you need to understand:
 
-👉 **What already exists in the market?**  
+👉 **What already exists in the market?**
+
+👉 **Who will be your chief competitors?**
+
 👉 **How big is this opportunity?**
 
 This module helps you step back and answer:
@@ -35,80 +38,96 @@ This IS about:
 
 ---
 
-Lesson 1 — Identify Competitors
+## **Goal of Lesson 1**
 
-## **Goal**
+Understand **how the problem is actually solved today**.
 
-Understand who is already solving this problem — directly or indirectly.
-
-Every meaningful problem already has solutions.
-
-Your job is to map the landscape.
+This is one of the most important steps in Market Discovery.
 
 ---
 
-## **Types of Competitors**
+## **Key Question**
 
-You will identify three types:
-
----
-
-### **1\. Direct Competitors**
-
-Companies that are trying to solve the **same problem in a similar way**.
-
----
-
-### **2\. Substitute Solutions**
-
-Ways customers solve the problem today, even if not ideal.
-
-Examples:
-
-• spreadsheets  
-• internal tools  
-• manual workflows  
-• hiring people
-
----
-
-### **3\. Adjacent Approaches**
-
-Companies solving a **related problem** or serving a similar customer.
+👉 “What do people actually do right now?”
 
 ---
 
 ## **Exercise**
 
-Using:
-
-• your Lean Canvas  
-• your interview insights
-
-Identify at least **5 relevant competitive companies or solutions**.
+Using your interview notes, answer:
 
 ---
 
-### **Founder Homework**
+### **1\. What tools or services do customers use?**
 
-Submit a bullet list for each competitor with Company Name or Solution Title as the major bullet and following sub-bullets:
+Examples:
 
-URL (if company), Description, Category, Why relevant, Competitive Type \[Direct or Substitute or Adjacent\]
+* software platforms  
+* consultants  
+* agencies  
+* internal system  
+* ignore the problem altogether (not a good sign)
+
+---
+
+### **2\. What manual workarounds exist?**
+
+Examples:
+
+• spreadsheets  
+• email coordination  
+• manual tracking  
+• custom processes
+
+---
+
+### **3\. What are the limitations?**
+
+For each solution, identify:
+
+• what doesn’t work  
+• where frustration exists  
+• where time or money is wasted
+
+---
+
+### **4\. Why haven’t they solved this better already?**
+
+This is critical.
+
+Possible answers:
+
+• too expensive  
+• too complex  
+• no good alternatives  
+• not urgent enough
+
+---
+
+## **Founder Homework**
+
+Submit a short summary covering:
+
+• how customers solve the problem today  
+• the most common tools or approaches  
+• key frustrations or limitations or reasons they haven’t solved already
+
+---
 
 ### **Ask Marvin**
 
-* Take your competitive bullet list and add as a new comment to your cohort startup post  
-  * start with, “@marvin mm\_s2\_m3\_l1”  
-* Marvin will reply to your comment with a short **competitive analysis** and update your lean business canvas. Marvin may ask you questions to get more clarity
+Marvin will give you further insights into how to market your solution given the answers you provided in this homework.
 
----
+* create a new comment on your cohort post and copy the following in a the first line, “@marvin mm\_s2\_m3\_l1”  
+* append with your homework and send  
+* Marvin will respond with recommendation on how you can clarify and how to think about marketing against the current solutions.
 
-### **Guidance**
+## **Important Insight**
 
-Focus on:
+Your startup is not competing with:
 
-• real solutions customers mentioned  
-• tools people actually use  
-• companies serving your customer segment
+👉 “nothing”
 
-If customers (from your research in module 2\) didn’t mention it, question how relevant it is.
+You are competing with:
+
+👉 **what customers already do today**
