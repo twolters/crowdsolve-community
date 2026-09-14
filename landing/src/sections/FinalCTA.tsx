@@ -9,8 +9,8 @@ export default function FinalCTA() {
           Your idea deserves ten honest weeks.
         </h2>
         <p className="text-brand-200 text-lg font-medium mb-10">
-          Starts <Todo>COHORT START DATE</Todo>. <Todo>N</Todo> seats left. A hundred
-          dollars a month, and no equity, ever.
+          An evergreen cohort — join anytime and start in whichever stage fits where you
+          are. <Todo>N</Todo> seats left. A hundred dollars a month, and no equity, ever.
         </p>
         <JoinCohortButton variant="light" size="lg" className="mx-auto" />
         <div className="mt-4">

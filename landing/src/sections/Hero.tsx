@@ -79,8 +79,8 @@ export default function Hero() {
               </a>
             </div>
             <p className="text-sm text-slate-500">
-              Starts <Todo>COHORT START DATE</Todo> · Applications close{' '}
-              <Todo>DEADLINE</Todo> · No equity taken, ever
+              Evergreen cohort — join anytime and start in whichever stage fits where
+              you are · No equity taken, ever
             </p>
           </motion.div>
 
