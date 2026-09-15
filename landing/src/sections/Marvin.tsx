@@ -1,21 +1,5 @@
 import { ArrowRight } from 'lucide-react';
 import { motion } from 'motion/react';
-import Todo from '../components/ui/Todo';
-
-const CARDS = [
-  {
-    title: 'Helps you form the idea',
-    desc: 'Turns the thing in your head into a problem statement and a solution hypothesis you can actually put in front of someone.',
-  },
-  {
-    title: 'Helps you test it',
-    desc: 'Pulls the assumptions out of your hypothesis, helps you design the discovery conversations that would prove them wrong, and makes sense of what you heard.',
-  },
-  {
-    title: 'Every step, not just the first one',
-    desc: 'Marvin runs through the whole ten weeks alongside the curriculum, so nothing you decided in week two gets quietly forgotten by week eight.',
-  },
-];
 
 export default function Marvin() {
   return (
@@ -43,27 +27,24 @@ export default function Marvin() {
             </a>
           </div>
 
-          <div className="md:col-span-7 space-y-5">
-            {CARDS.map((c, i) => (
-              <motion.div
-                key={c.title}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: i * 0.1 }}
-                className="p-6 rounded-2xl bg-white/[7%] border border-brand-200/[22%]"
-              >
-                <h3 className="text-lg font-bold mb-2">{c.title}</h3>
-                <p className="text-brand-100 leading-relaxed">{c.desc}</p>
-              </motion.div>
-            ))}
-            <div className="text-sm">
-              <Todo>
-                a real screenshot or transcript snippet of Marvin would beat all three of
-                these cards
-              </Todo>
+          <motion.div
+            className="md:col-span-7"
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+          >
+            <div className="rounded-2xl bg-white/[7%] border border-brand-200/[22%] p-2">
+              <img
+                src="/images/marvin-feedback-screenshot.png"
+                alt="Marvin reviewing a founder's market discovery interview questions, with strengths and areas for refinement called out question by question"
+                className="rounded-xl w-full h-auto"
+              />
             </div>
-          </div>
+            <p className="text-sm text-brand-200 mt-4">
+              Marvin giving a founder feedback on their customer-discovery interview
+              questions.
+            </p>
+          </motion.div>
         </div>
       </div>
     </section>
