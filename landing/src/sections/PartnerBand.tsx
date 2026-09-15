@@ -43,7 +43,7 @@ export default function PartnerBand() {
               />
               <div className="text-brand-200 text-sm">{p.descriptor}</div>
               {p.showName && (
-                <div className="text-white text-sm font-semibold mt-1">{p.name}</div>
+                <div className="text-brand-200 text-sm font-semibold mt-1">{p.name}</div>
               )}
             </div>
           ))}
