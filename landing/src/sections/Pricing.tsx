@@ -7,7 +7,7 @@ const INCLUDES = [
   'Two live sessions a week',
   'Marvin at every step',
   'Mentor office hours',
-  'Three expert AMAs',
+  'Expert AMAs',
   'Pitch day with a real panel',
   'The founder community',
   '1000 Gretas grant eligibility',

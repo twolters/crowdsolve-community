@@ -45,7 +45,7 @@ export default function Cadence() {
                 </p>
               </div>
               <div>
-                <h4 className="font-bold text-brand-900 mb-2">Three expert AMAs</h4>
+                <h4 className="font-bold text-brand-900 mb-2">Expert AMAs</h4>
                 <p className="text-sm text-slate-600">
                   Operators and investors on sourcing customers, validating demand,
                   positioning.
