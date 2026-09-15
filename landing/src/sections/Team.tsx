@@ -1,6 +1,5 @@
 // landing/src/sections/Team.tsx
 import { motion } from 'motion/react';
-import Todo from '../components/ui/Todo';
 
 const TEAM = [
   {
@@ -27,7 +26,7 @@ export default function Team() {
           </h2>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-12 mb-16">
+        <div className="grid md:grid-cols-2 gap-12">
           {TEAM.map((person, i) => (
             <motion.div
               key={person.name}
@@ -51,30 +50,6 @@ export default function Team() {
               </div>
             </motion.div>
           ))}
-        </div>
-
-        <div className="rounded-2xl bg-brand-50 p-10">
-          <h3 className="text-xl font-bold text-brand-900 mb-2">The mentor bench</h3>
-          <p className="text-slate-600 mb-8">
-            Founders, operators and investors who take office hours and sit on the pitch
-            panel.
-          </p>
-          <div className="grid grid-cols-2 sm:grid-cols-5 gap-6">
-            {Array.from({ length: 5 }).map((_, i) => (
-              <div key={i} className="flex flex-col items-center text-center gap-2">
-                <div className="w-16 h-16 rounded-full bg-white border-2 border-dashed border-brand-900/20 flex items-center justify-center text-brand-900/30 text-xs font-bold">
-                  ?
-                </div>
-                <Todo>mentor {i + 1}</Todo>
-              </div>
-            ))}
-          </div>
-          <p className="text-sm text-slate-500 mt-6">
-            <Todo>
-              five real mentors with names and photos — "been there, done that mentorship"
-              is a headline claim with no names attached today
-            </Todo>
-          </p>
         </div>
       </div>
     </section>
