@@ -1,5 +1,3 @@
-import Todo from '../components/ui/Todo';
-
 const FAQS = [
   {
     q: 'Do you take equity?',
@@ -21,6 +19,10 @@ const FAQS = [
     q: 'What do I actually walk out with?',
     a: "A tested problem statement, a defined ICP backed by real customer conversations, and an initial pitch deck you've presented to a panel.",
   },
+  {
+    q: 'What happens after the ten weeks?',
+    a: 'Enter the next stage cohort or get a custom plan for your startup.',
+  },
 ];
 
 export default function FAQ() {
@@ -40,18 +42,6 @@ export default function FAQ() {
               <p className="text-slate-600 leading-relaxed">{item.a}</p>
             </div>
           ))}
-
-          <div>
-            <h3 className="text-lg font-bold text-brand-900 mb-2">
-              What happens after the ten weeks?
-            </h3>
-            <p className="text-slate-600 leading-relaxed">
-              <Todo>
-                alumni community? a next stage? grant intros? This is the question that
-                decides whether $100/mo keeps renewing.
-              </Todo>
-            </p>
-          </div>
         </div>
       </div>
     </section>
