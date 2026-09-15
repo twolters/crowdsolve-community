@@ -1,5 +1,6 @@
 import Interest from './pages/Interest';
 import Terms from './pages/Terms';
+import Privacy from './pages/Privacy';
 import Navbar from './sections/Navbar';
 import Hero from './sections/Hero';
 import PartnerBand from './sections/PartnerBand';
@@ -23,6 +24,9 @@ export default function App() {
   }
   if (typeof window !== 'undefined' && window.location.pathname === '/terms') {
     return <Terms />;
+  }
+  if (typeof window !== 'undefined' && window.location.pathname === '/privacy') {
+    return <Privacy />;
   }
 
   return (

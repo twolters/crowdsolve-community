@@ -1,6 +1,6 @@
 import JoinCohortButton from '../components/ui/JoinCohortButton';
 import CheckItem from '../components/ui/CheckItem';
-import TermsAcknowledgment from '../components/ui/TermsAcknowledgment';
+import LegalAcknowledgment from '../components/ui/LegalAcknowledgment';
 
 const INCLUDES = [
   'Full 10-week curriculum',
@@ -40,7 +40,7 @@ export default function Pricing() {
             <div className="flex flex-wrap items-center gap-4 mb-3">
               <JoinCohortButton variant="light" size="lg" />
             </div>
-            <TermsAcknowledgment tone="dark" />
+            <LegalAcknowledgment tone="dark" />
           </div>
 
           <div className="md:col-span-5 flex flex-col gap-8">
