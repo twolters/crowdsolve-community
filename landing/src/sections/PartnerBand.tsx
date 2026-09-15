@@ -2,7 +2,11 @@
 import Todo from '../components/ui/Todo';
 
 const PARTNERS = [
-  { name: 'Colorado School of Mines', descriptor: 'Entrepreneurship Program' },
+  {
+    name: 'Colorado School of Mines',
+    descriptor: 'Entrepreneurship Program',
+    logo: '/images/mines-logo-white.png',
+  },
   { name: 'The Colorado Impact Challenge', descriptor: 'Statewide venture challenge' },
   { name: '1000 Gretas', descriptor: 'Non-dilutive grant making' },
   { name: 'New Venture Challenge', descriptor: 'University of Colorado' },
@@ -20,14 +24,18 @@ export default function PartnerBand() {
         </div>
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 text-center">
           {PARTNERS.map((p) => (
-            <div key={p.name}>
-              <div className="text-white font-semibold mb-1">{p.name}</div>
+            <div key={p.name} className="flex flex-col items-center">
+              {p.logo ? (
+                <img src={p.logo} alt={p.name} className="h-12 w-auto mb-1 object-contain" />
+              ) : (
+                <div className="text-white font-semibold mb-1">{p.name}</div>
+              )}
               <div className="text-brand-200 text-sm">{p.descriptor}</div>
             </div>
           ))}
         </div>
         <div className="mt-8 text-center">
-          <Todo>replace with real partner logos, knocked back to white on the dark band</Todo>
+          <Todo>replace the remaining 3 partner names with real logos, knocked back to white on the dark band</Todo>
         </div>
       </div>
     </section>
