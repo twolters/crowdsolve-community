@@ -1,6 +1,4 @@
 // landing/src/sections/PartnerBand.tsx
-import Todo from '../components/ui/Todo';
-
 const PARTNERS = [
   {
     name: 'Colorado School of Mines',
@@ -17,7 +15,11 @@ const PARTNERS = [
     descriptor: 'Non-dilutive grant making',
     logo: '/images/gretas-logo-white.png',
   },
-  { name: 'New Venture Challenge', descriptor: 'University of Colorado' },
+  {
+    name: 'New Venture Challenge',
+    descriptor: 'University of Colorado',
+    logo: '/images/nvc-logo-white.png',
+  },
 ];
 
 export default function PartnerBand() {
@@ -33,21 +35,14 @@ export default function PartnerBand() {
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 text-center">
           {PARTNERS.map((p) => (
             <div key={p.name} className="flex flex-col items-center">
-              {p.logo ? (
-                <img
-                  src={p.logo}
-                  alt={p.name}
-                  className="h-10 max-w-[160px] w-auto mb-1 object-contain"
-                />
-              ) : (
-                <div className="text-white font-semibold mb-1">{p.name}</div>
-              )}
+              <img
+                src={p.logo}
+                alt={p.name}
+                className="h-10 max-w-[160px] w-auto mb-1 object-contain"
+              />
               <div className="text-brand-200 text-sm">{p.descriptor}</div>
             </div>
           ))}
-        </div>
-        <div className="mt-8 text-center">
-          <Todo>replace the remaining partner name with a real logo, knocked back to white on the dark band</Todo>
         </div>
       </div>
     </section>
