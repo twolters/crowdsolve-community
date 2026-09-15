@@ -1,5 +1,4 @@
 import JoinCohortButton from '../components/ui/JoinCohortButton';
-import Todo from '../components/ui/Todo';
 
 export default function FinalCTA() {
   return (
@@ -10,7 +9,7 @@ export default function FinalCTA() {
         </h2>
         <p className="text-brand-200 text-lg font-medium mb-10">
           An evergreen cohort — join anytime and start in whichever stage fits where you
-          are. <Todo>N</Todo> seats left. A hundred dollars a month, and no equity, ever.
+          are. 25 seats left. A hundred dollars a month, and no equity, ever.
         </p>
         <JoinCohortButton variant="light" size="lg" className="mx-auto" />
         <div className="mt-4">
