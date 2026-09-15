@@ -38,6 +38,7 @@ const TESTIMONIALS: Testimonial[] = [
     name: 'Eliot',
     roleLabel: 'Founder',
     company: { name: 'Pandacore', url: 'https://pandacore.io' },
+    photo: '/images/eliot.png',
   },
 ];
 
