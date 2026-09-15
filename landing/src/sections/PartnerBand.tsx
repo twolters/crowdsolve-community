@@ -12,7 +12,11 @@ const PARTNERS = [
     descriptor: 'Statewide venture challenge',
     logo: '/images/cic-logo-white.png',
   },
-  { name: '1000 Gretas', descriptor: 'Non-dilutive grant making' },
+  {
+    name: '1000 Gretas',
+    descriptor: 'Non-dilutive grant making',
+    logo: '/images/gretas-logo-white.png',
+  },
   { name: 'New Venture Challenge', descriptor: 'University of Colorado' },
 ];
 
@@ -43,7 +47,7 @@ export default function PartnerBand() {
           ))}
         </div>
         <div className="mt-8 text-center">
-          <Todo>replace the remaining 2 partner names with real logos, knocked back to white on the dark band</Todo>
+          <Todo>replace the remaining partner name with a real logo, knocked back to white on the dark band</Todo>
         </div>
       </div>
     </section>
