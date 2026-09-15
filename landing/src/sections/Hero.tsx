@@ -53,7 +53,7 @@ export default function Hero() {
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-brand-400 opacity-75"></span>
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-brand-500"></span>
               </span>
-              Beta Cohort — Applications Open
+              Ideate and Market Discovery Cohorts Open
             </div>
             <h1 className="text-4xl md:text-6xl font-extrabold text-brand-900 leading-[1.1] mb-8">
               Ten weeks to turn your idea into something{' '}
