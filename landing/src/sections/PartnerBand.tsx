@@ -19,6 +19,7 @@ const PARTNERS = [
     name: 'New Venture Challenge',
     descriptor: 'University of Colorado',
     logo: '/images/nvc-logo-white.png',
+    showName: true,
   },
 ];
 
@@ -41,6 +42,9 @@ export default function PartnerBand() {
                 className="h-10 max-w-[160px] w-auto mb-1 object-contain"
               />
               <div className="text-brand-200 text-sm">{p.descriptor}</div>
+              {p.showName && (
+                <div className="text-white text-sm font-semibold mt-1">{p.name}</div>
+              )}
             </div>
           ))}
         </div>
