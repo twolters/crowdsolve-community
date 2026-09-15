@@ -144,6 +144,14 @@ export default function ApplicationForm() {
         {state === 'submitting' ? 'Sending...' : state === 'error' ? 'Something went wrong — try again' : 'Send Info →'}
       </button>
 
+      <p className="text-center text-xs text-slate-500">
+        By submitting this form, you agree to our{' '}
+        <a href="/privacy" className="underline hover:text-brand-700">
+          Privacy Policy
+        </a>
+        .
+      </p>
+
       <p className="text-center text-sm text-slate-500 pt-1">
         Questions? Reach out to <a href="mailto:patrick@crowdsolve.eco" className="text-brand-600 underline">patrick@crowdsolve.eco</a>
       </p>

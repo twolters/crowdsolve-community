@@ -1,4 +1,5 @@
 import JoinCohortButton from '../components/ui/JoinCohortButton';
+import LegalAcknowledgment from '../components/ui/LegalAcknowledgment';
 
 export default function FinalCTA() {
   return (
@@ -12,7 +13,8 @@ export default function FinalCTA() {
           are. 25 seats left. A hundred dollars a month, and no equity, ever.
         </p>
         <JoinCohortButton variant="light" size="lg" className="mx-auto" />
-        <div className="mt-4">
+        <div className="mt-3 flex flex-col items-center gap-2">
+          <LegalAcknowledgment tone="dark" />
           <a
             href="#sit-in"
             className="text-sm text-brand-200 hover:text-white underline underline-offset-4 transition-colors"
