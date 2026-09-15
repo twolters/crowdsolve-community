@@ -61,12 +61,9 @@ export default function Pricing() {
 
             <div id="sit-in" className="rounded-2xl bg-brand-50 p-8">
               <h3 className="text-xl font-bold text-brand-900 mb-1">Not sure yet?</h3>
-              <p className="text-xs text-slate-500 mb-3">
-                <Todo>only ship this card if you'll actually offer open sessions</Todo>
-              </p>
               <p className="text-slate-600 leading-relaxed mb-6">
-                Come to the next open session and see how a cohort actually runs before you
-                pay anything.
+                Join with a 7-day trial. Sit in on a session and see how a cohort actually
+                runs — if it's not for you, back out within 7 days.
               </p>
               {/* TODO: no destination was specified for signing up to sit in on a session */}
               <a
