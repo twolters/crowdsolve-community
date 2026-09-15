@@ -41,7 +41,7 @@ export default function Cadence() {
               <div>
                 <h4 className="font-bold text-brand-900 mb-2">Mentor office hours</h4>
                 <p className="text-sm text-slate-600">
-                  Deep-dive coaching, 2–3 founders per session.
+                  Deep-dive, personalized 1:1 coaching.
                 </p>
               </div>
               <div>
