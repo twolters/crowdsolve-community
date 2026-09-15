@@ -53,7 +53,7 @@ export default function Cadence() {
               </div>
               <div>
                 <h4 className="font-bold text-brand-900 mb-2">Pitch competition</h4>
-                <p className="text-sm text-slate-600">Week ten, in front of a real panel.</p>
+                <p className="text-sm text-slate-600">Once per quarter with investor panel.</p>
               </div>
             </div>
 
