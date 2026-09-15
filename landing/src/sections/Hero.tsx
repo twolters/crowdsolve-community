@@ -1,6 +1,7 @@
 import { ArrowRight, CheckCircle2 } from 'lucide-react';
 import { motion } from 'motion/react';
 import JoinCohortButton from '../components/ui/JoinCohortButton';
+import TermsAcknowledgment from '../components/ui/TermsAcknowledgment';
 
 const PRICE_CARD_ITEMS = [
   'The full 10-week curriculum',
@@ -86,10 +87,11 @@ export default function Hero() {
                 <ArrowRight className="w-5 h-5" />
               </a>
             </div>
-            <p className="text-sm text-slate-500">
+            <p className="text-sm text-slate-500 mb-3">
               Evergreen cohort — join anytime and start in whichever stage fits where
               you are · No equity taken, ever
             </p>
+            <TermsAcknowledgment />
           </motion.div>
 
           <motion.div

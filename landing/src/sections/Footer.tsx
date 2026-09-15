@@ -16,6 +16,7 @@ export default function Footer() {
           <a href="/interest" className="hover:text-brand-900">Send us some info</a>
           {/* TODO: point at the real member login URL — no login destination was specified in the brief, and no login flow exists in this codebase today */}
           <a href="#" className="hover:text-brand-900">Log in</a>
+          <a href="/terms" className="hover:text-brand-900">Terms of Service</a>
         </div>
         <a
           href="mailto:patrick@crowdsolve.eco"

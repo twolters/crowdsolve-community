@@ -1,4 +1,5 @@
 import Interest from './pages/Interest';
+import Terms from './pages/Terms';
 import Navbar from './sections/Navbar';
 import Hero from './sections/Hero';
 import PartnerBand from './sections/PartnerBand';
@@ -19,6 +20,9 @@ export default function App() {
   // for any path, so a plain pathname check is enough for this one extra "page".
   if (typeof window !== 'undefined' && window.location.pathname === '/interest') {
     return <Interest />;
+  }
+  if (typeof window !== 'undefined' && window.location.pathname === '/terms') {
+    return <Terms />;
   }
 
   return (
