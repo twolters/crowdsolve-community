@@ -1,7 +1,6 @@
 import { ArrowRight, CheckCircle2 } from 'lucide-react';
 import { motion } from 'motion/react';
 import JoinCohortButton from '../components/ui/JoinCohortButton';
-import Todo from '../components/ui/Todo';
 
 const PRICE_CARD_ITEMS = [
   'The full 10-week curriculum',
@@ -30,8 +29,17 @@ function PriceCard() {
         ))}
       </ul>
       <div className="rounded-2xl bg-brand-50 p-5 text-sm text-brand-900 font-medium leading-relaxed">
-        <Todo>N</Todo> of <Todo>COHORT SIZE</Todo> seats left in this cohort. Eligible for
-        non-dilutive grant funding through <strong>1000 Gretas</strong>.
+        25 seats left in this cohort. Climate related startups eligible for non-dilutive
+        grant funding through{' '}
+        <a
+          href="https://1000gretas.org"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-bold underline underline-offset-2 hover:text-brand-700"
+        >
+          1000 Gretas
+        </a>
+        .
       </div>
     </div>
   );
