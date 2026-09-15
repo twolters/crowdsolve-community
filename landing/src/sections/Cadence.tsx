@@ -56,12 +56,6 @@ export default function Cadence() {
                 <p className="text-sm text-slate-600">Once per quarter with investor panel.</p>
               </div>
             </div>
-
-            <p className="text-sm text-slate-600 bg-yellow-50 rounded-xl p-4 border border-dashed border-yellow-600">
-              TODO: the live site currently advertises four session types — biweekly live
-              sessions, biweekly office hours, weekly founder workouts, three AMAs. Confirm
-              what's actually on the calendar and make this section match it.
-            </p>
           </div>
         </div>
       </div>
