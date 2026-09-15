@@ -39,6 +39,8 @@ const TESTIMONIALS: Testimonial[] = [
     roleLabel: 'Founder',
     company: { name: 'Pandacore', url: 'https://pandacore.io' },
     photo: '/images/eliot.png',
+    content:
+      'CrowdSolve helped me know what to work on next and kept me from wasting time. Well worth the price.',
   },
 ];
 
