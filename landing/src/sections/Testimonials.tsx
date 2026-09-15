@@ -2,27 +2,42 @@
 import { motion } from 'motion/react';
 import Todo from '../components/ui/Todo';
 
-const TESTIMONIALS = [
+type Testimonial = {
+  name: string;
+  roleLabel: string;
+  company?: { name: string; url: string };
+  photo?: string;
+  content?: string;
+};
+
+const TESTIMONIALS: Testimonial[] = [
   {
     name: 'Cody',
-    role: 'Solo founder, clean energy',
+    roleLabel: 'Solo founder',
+    company: { name: 'Tap Energy', url: 'https://tapenergy.eco' },
     photo: '/images/cody.png',
     content:
       "I can get a little distracted by the next shiny object and so this forces me to sit down and go okay... I'm following a set of guidelines that is moving my business forward.",
   },
   {
     name: 'Mel',
-    role: 'Founder, sustainable consumer goods',
+    roleLabel: 'Founder, sustainable consumer goods',
     photo: '/images/mel.jpg',
     content:
       'It gets lonely. It gets really lonely. Just to look at what people are going through — their wins — that gives me energy.',
   },
   {
     name: 'Frank',
-    role: 'Founder, climate infrastructure',
+    roleLabel: 'Founder',
+    company: { name: 'Go Good Travel', url: 'https://gogoodtravel.com' },
     photo: '/images/frank.jpg',
     content:
       "It's really the outside input, feedback, focusing on some of the important components that need to be in place to be successful.",
+  },
+  {
+    name: 'Eliot',
+    roleLabel: 'Founder',
+    company: { name: 'Pandacore', url: 'https://pandacore.io' },
   },
 ];
 
@@ -46,29 +61,50 @@ export default function Testimonials() {
               transition={{ delay: i * 0.1 }}
               className="p-8 rounded-2xl bg-white border border-brand-900/5"
             >
-              <p className="text-lg text-slate-800 italic leading-snug mb-8">
-                "{t.content}"
-              </p>
+              {t.content ? (
+                <p className="text-lg text-slate-800 italic leading-snug mb-8">
+                  "{t.content}"
+                </p>
+              ) : (
+                <div className="mb-8">
+                  <Todo>a real quote from {t.name}</Todo>
+                </div>
+              )}
               <div className="flex items-center gap-3">
-                <img
-                  src={t.photo}
-                  alt={t.name}
-                  className="w-12 h-12 rounded-full object-cover"
-                />
+                {t.photo ? (
+                  <img
+                    src={t.photo}
+                    alt={t.name}
+                    className="w-12 h-12 rounded-full object-cover flex-shrink-0"
+                  />
+                ) : (
+                  <div className="w-12 h-12 rounded-full bg-white border-2 border-dashed border-brand-900/20 flex items-center justify-center text-brand-900/30 text-xs font-bold flex-shrink-0">
+                    ?
+                  </div>
+                )}
                 <div>
                   <div className="font-bold text-brand-900">{t.name}</div>
-                  <div className="text-sm text-slate-500">{t.role}</div>
+                  <div className="text-sm text-slate-500">
+                    {t.company ? (
+                      <>
+                        {t.roleLabel},{' '}
+                        <a
+                          href={t.company.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="underline underline-offset-2 hover:text-brand-700"
+                        >
+                          {t.company.name}
+                        </a>
+                      </>
+                    ) : (
+                      t.roleLabel
+                    )}
+                  </div>
                 </div>
               </div>
             </motion.div>
           ))}
-
-          <div className="p-8 rounded-2xl bg-white border border-dashed border-yellow-600 flex items-center justify-center text-center">
-            <Todo>
-              real photo, last name and company for a non-climate founder — without one,
-              the page still looks climate-only
-            </Todo>
-          </div>
         </div>
       </div>
     </section>
