@@ -7,7 +7,11 @@ const PARTNERS = [
     descriptor: 'Entrepreneurship Program',
     logo: '/images/mines-logo-white.png',
   },
-  { name: 'The Colorado Impact Challenge', descriptor: 'Statewide venture challenge' },
+  {
+    name: 'The Colorado Impact Challenge',
+    descriptor: 'Statewide venture challenge',
+    logo: '/images/cic-logo-white.png',
+  },
   { name: '1000 Gretas', descriptor: 'Non-dilutive grant making' },
   { name: 'New Venture Challenge', descriptor: 'University of Colorado' },
 ];
@@ -26,7 +30,11 @@ export default function PartnerBand() {
           {PARTNERS.map((p) => (
             <div key={p.name} className="flex flex-col items-center">
               {p.logo ? (
-                <img src={p.logo} alt={p.name} className="h-12 w-auto mb-1 object-contain" />
+                <img
+                  src={p.logo}
+                  alt={p.name}
+                  className="h-10 max-w-[160px] w-auto mb-1 object-contain"
+                />
               ) : (
                 <div className="text-white font-semibold mb-1">{p.name}</div>
               )}
@@ -35,7 +43,7 @@ export default function PartnerBand() {
           ))}
         </div>
         <div className="mt-8 text-center">
-          <Todo>replace the remaining 3 partner names with real logos, knocked back to white on the dark band</Todo>
+          <Todo>replace the remaining 2 partner names with real logos, knocked back to white on the dark band</Todo>
         </div>
       </div>
     </section>
