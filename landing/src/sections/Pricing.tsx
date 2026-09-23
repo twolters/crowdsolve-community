@@ -3,7 +3,7 @@ import CheckItem from '../components/ui/CheckItem';
 import LegalAcknowledgment from '../components/ui/LegalAcknowledgment';
 
 const INCLUDES = [
-  'Full 10-week curriculum',
+  'Full 12-week curriculum',
   'Two live sessions a week',
   'Marvin at every step',
   'Mentor office hours',

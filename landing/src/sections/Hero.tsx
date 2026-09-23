@@ -4,7 +4,7 @@ import JoinCohortButton from '../components/ui/JoinCohortButton';
 import LegalAcknowledgment from '../components/ui/LegalAcknowledgment';
 
 const PRICE_CARD_ITEMS = [
-  'The full 10-week curriculum',
+  'The full 12-week curriculum',
   'Two live sessions every week',
   'Marvin, our AI, at every step',
   'Mentor office hours & expert AMAs',
@@ -65,7 +65,7 @@ export default function Hero() {
               Ideate and Market Discovery Cohorts Open
             </div>
             <h1 className="text-4xl md:text-6xl font-extrabold text-brand-900 leading-[1.1] mb-8">
-              Ten weeks to turn your idea into something{' '}
+              Twelve weeks to turn your idea into something{' '}
               <br className="sm:hidden" />
               you can <em className="italic text-brand-600 font-light">prove</em>.
             </h1>
@@ -80,10 +80,10 @@ export default function Hero() {
                 Join the cohort — $100/mo
               </JoinCohortButton>
               <a
-                href="#the-10-weeks"
+                href="#the-12-weeks"
                 className="inline-flex items-center justify-center gap-2 border border-brand-900 text-brand-900 px-8 py-4 rounded-full text-lg font-bold hover:bg-brand-50 transition-all w-full sm:w-auto"
               >
-                See the 10 weeks
+                See the 12 weeks
                 <ArrowRight className="w-5 h-5" />
               </a>
             </div>

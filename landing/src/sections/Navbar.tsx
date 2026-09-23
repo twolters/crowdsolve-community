@@ -10,7 +10,7 @@ export default function Navbar() {
         </a>
         <div className="hidden md:flex items-center gap-8 text-sm font-medium text-slate-600">
           <a href="#how-it-works" className="hover:text-brand-900 transition-colors">How it works</a>
-          <a href="#the-10-weeks" className="hover:text-brand-900 transition-colors">The 10 weeks</a>
+          <a href="#the-12-weeks" className="hover:text-brand-900 transition-colors">The 12 weeks</a>
           <a href="#marvin" className="hover:text-brand-900 transition-colors">Marvin</a>
           <a href="#pricing" className="hover:text-brand-900 transition-colors">Pricing</a>
           <a href="#for-programs" className="hover:text-brand-900 transition-colors">For programs</a>
