@@ -20,7 +20,7 @@ const FAQS = [
     a: "A tested problem statement, a defined ICP backed by real customer conversations, and an initial pitch deck you've presented to a panel.",
   },
   {
-    q: 'What happens after the ten weeks?',
+    q: 'What happens after the twelve weeks?',
     a: 'Enter the next stage cohort or get a custom plan for your startup.',
   },
 ];

@@ -3,7 +3,7 @@ import { CheckCircle2, XCircle } from 'lucide-react';
 const FIT = [
   "You have an idea you're serious about pursuing",
   "You're pre-revenue, pre-product, or just getting started",
-  'You can give it about five hours a week for ten weeks',
+  'You can give it about five hours a week for twelve weeks',
   'You want to be pushed, not just supported',
 ];
 

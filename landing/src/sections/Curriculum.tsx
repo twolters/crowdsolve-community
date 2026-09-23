@@ -13,7 +13,7 @@ const CARDS = [
     ],
   },
   {
-    eyebrow: 'Weeks 4–10 · Market discovery',
+    eyebrow: 'Weeks 4–12 · Market discovery',
     body: "Take the hypothesis out of the building. Define who it's for, run real customer conversations, and find out which of your assumptions survive contact with the market.",
     items: [
       'A defined ICP, not a guess',
@@ -34,11 +34,11 @@ const CARDS = [
 
 export default function Curriculum() {
   return (
-    <section id="the-10-weeks" className="py-28 bg-white">
+    <section id="the-12-weeks" className="py-28 bg-white">
       <div className="max-w-7xl mx-auto px-6">
         <div className="max-w-2xl mb-16">
           <h2 className="text-4xl font-bold text-brand-900 mb-4">
-            Ten weeks. Three things you walk out with.
+            Twelve weeks. Three things you walk out with.
           </h2>
           <p className="text-slate-600 text-lg font-medium">
             Not modules completed. Artifacts you can put in front of a customer or an
